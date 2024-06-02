@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="untitled" />
+        <module name="stock_pme_gestion_backend" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="my-jersey-project" target="1.8" />
+      <module name="untitled" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
